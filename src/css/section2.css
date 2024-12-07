@@ -1,0 +1,89 @@
+.section-2 {
+    background-color: #1d1c1c;
+    color: white;
+    height: 100vh;
+    display: flex;
+}
+
+.section-2-1 {
+    flex: 1;
+    background-color: #b14e2492;
+    margin-left: 2.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+
+    /* Make text vertical */
+    /* writing-mode: vertical-rl; */
+    /* text-orientation: mixed; */
+    /* from bottom to top */
+    /* transform: rotate(180deg); */
+
+    /* Center text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: .9rem; /* Adjust size as needed */
+    font-weight: bold;
+    color: white;
+}
+
+.section-2-1 h1{
+    
+    transform: rotate(270deg);
+
+}
+.section-2-2 {
+    flex: 6;
+    background-color: #083344;
+    margin-left: 1.5%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
+.plant{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* margin: 2% 5%; */
+}
+.plant-img{
+    width: 27%;
+    height: 87%;
+    padding-left:7px ;
+}
+.lamp-img{
+    position: relative;
+
+    bottom: 62%;
+    left: 5%;
+    width: 19%;
+    height: 37%;
+}
+.flower-img{
+    position: relative;
+    width: 23%;
+    height: 50%;
+    right: 16%;
+}
+.led-img{
+    position: absolute;
+    width: 32%;
+    height: 50%;
+    right: 4%;
+    bottom: -84%;
+
+    
+}
+
+.hole-img{
+    position: absolute;
+    width: 32%;
+    height: 30%;
+    /* background-repeat: repeat; */
+    transform: rotate(-8deg);
+    left: 62%;
+    bottom: -90%;
+}

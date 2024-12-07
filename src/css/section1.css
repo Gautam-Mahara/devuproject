@@ -1,0 +1,7 @@
+.section-1 {
+    background-image: url("../.././public/sofa.png"); /* Note: No dot before `/images` */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}

@@ -1,0 +1,18 @@
+.mid-section-1{
+    font-size: 70px;
+    line-break: 1.5;
+    break-after: right;
+    width: 40%;
+    margin: 5% 2%;
+}
+.mid-section-2{
+    display: flex;
+    justify-content: start;
+}
+.mid-section-2 h3{
+    font-size: 1rem;
+    margin: 0 2%;
+    border: 1px solid orange;
+    border-radius: 599px;
+    padding: 1% 2%;
+}
