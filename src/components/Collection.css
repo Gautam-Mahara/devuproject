@@ -1,0 +1,32 @@
+.backColor {
+  background-color: #1d1c1c;
+  padding: 20px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.colo {
+  color: white;
+  text-align: center;
+}
+
+.row {
+  display: flex; /* Use flexbox to align items in a single row */
+  justify-content: space-between; /* Reduce space between columns */
+  align-items: center; /* Center items vertically */
+  gap: 10px; /* Optional: Fine-tune the gap between columns */
+}
+
+.col {
+  flex: 1;
+  text-align: center;
+}
+
+.col img {
+  width: 100%;
+  max-width: 700px;
+  height: 895px; /* Keep aspect ratio intact */
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 5px; /* Adjust horizontal margin between images */
+}
