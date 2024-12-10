@@ -78,3 +78,13 @@
     top: 225%;
     left: 85%;
 }
+.cat-text{
+    color: white;
+    position: absolute;
+    top: 190%;
+    left: 46%;
+    font-weight: bold;
+    /* css for uppercase font */
+    text-transform: uppercase;
+
+}

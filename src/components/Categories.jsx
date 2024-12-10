@@ -31,6 +31,7 @@ const Categories = () => {
             <img className="f35" src="f35.jpeg" alt="" />
             <img className="f34" src="f34.jpeg" alt="" />
             <img className="f33" src="f33.jpeg" alt="" />
+            <h3 className="cat-text">Categories</h3>
 
         </div>
     )
