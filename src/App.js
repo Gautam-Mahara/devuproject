@@ -6,6 +6,7 @@ import "./css/section2.css";
 import Collection from "./components/Collection.jsx";
 import Makers from "./components/Makers.jsx";
 import Testimonials from "./components/Testimonials.jsx";
+import Categories from "./components/Categories.jsx";
 
 function App() {
   return (
@@ -64,6 +65,7 @@ function App() {
       </div>
 
       {/* Collection Component */}
+      <Categories/>
       <Collection/>
       <Makers />
       <Testimonials/>

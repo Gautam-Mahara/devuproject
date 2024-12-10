@@ -1,0 +1,58 @@
+.cat{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    height: 100vh;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #346C81;
+    /* padding: 20px; */
+
+}
+.cat div {
+    width: 8%;
+    padding: 5vh;
+    background-color: white;
+    height: 45%;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    text-align: center; /* Optional: Center text inside the div */
+    vertical-align: middle;
+    padding: 10vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Shadow for better design */
+}
+
+
+
+.fur{
+    /* padding-left: 3%; */
+    position: relative;
+    bottom: -15%;
+    right: -6%;
+
+
+}
+.dig{
+    position: relative;
+    bottom: 50%;
+    left: 40%;
+
+}
+.lin{
+    /* padding-right: 3%; */
+    position: relative;
+    bottom: 115%;
+    left:75%;
+    /* margin-right: 5%; */
+}
+.cat img{
+    /* position: absolute; */
+    width: 160px;
+    height: 220px;
+    margin: 10px;
+    /* border-radius: 50%; */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
