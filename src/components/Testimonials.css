@@ -1,44 +1,56 @@
 .testimonials-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start; /* Align all cards at the top */
     gap: 20px;
-    padding: 40px;
+    padding: 118px;
     background-color: #002638; /* Matches the dark blue background */
   }
   
   .testimonial-card {
+    display: flex;
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: flex-start; /* Align content to the top */
+    align-items: center; /* Center-align horizontally */
     background-color: #f1f1f1;
     padding: 20px;
     border-radius: 12px;
     text-align: center;
     width: 300px;
+    height: 245px; /* Set a consistent height for all cards */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
+    transition: transform 0.3s ease; /* Smooth transition for adjustments */
   }
   
+  /* Highlighted card background */
   .testimonial-card.highlight {
     background-color: #fdbf60; /* Highlighted card color */
+  }
+  
+  /* Adjust the middle card's position */
+  .testimonial-card:nth-child(2) {
+    transform: translateY(-20px); /* Raise the middle card */
   }
   
   .testimonial-text {
     font-size: 16px;
     line-height: 1.5;
     color: #333;
-    margin-bottom: 20px;
+    margin: 0; /* Remove unnecessary margin */
+    flex-grow: 1; /* Allow text to expand */
+    position: relative; /* Position relative for avatar alignment */
+    padding-bottom: 30px; /* Reserve space for the avatar */
   }
   
   .avatar {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    margin-top: -30px;
     border: 3px solid #002638;
-  }
-  
-  .testimonial-name {
-    font-size: 14px;
-    color: #333;
-    margin-top: 10px;
+    position: absolute;
+    bottom: 0; /* Align to the bottom of the text box */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, 50%); /* Center the image and make the bottom line touch the center */
   }
   
