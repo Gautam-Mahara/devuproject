@@ -7,6 +7,7 @@ import Collection from "./components/Collection.jsx";
 import Makers from "./components/Makers.jsx";
 import Testimonials from "./components/Testimonials.jsx";
 import Categories from "./components/Categories.jsx";
+import ContactUs from "./components/ContactUs.jsx";
 
 function App() {
   return (
@@ -69,6 +70,7 @@ function App() {
       <Collection/>
       <Makers />
       <Testimonials/>
+      <ContactUs/>
     </div>
   );
 }
