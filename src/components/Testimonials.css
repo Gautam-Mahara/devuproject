@@ -39,10 +39,24 @@
     color: #333;
     margin: 0; /* Remove unnecessary margin */
     flex-grow: 1; /* Allow text to expand */
-    position: relative; /* Position relative for avatar alignment */
+    position: relative;
+    padding-top: 40px; /* Reserve space for the quotation mark */
     padding-bottom: 30px; /* Reserve space for the avatar */
-  }
-  
+}
+
+.testimonial-text::before {
+    content: "\201C"; /* Unicode for the left double quotation mark */
+    font-size: 60px;
+    display: block;
+    text-align: center; /* Center the quotation mark */
+    color: #002638; /* Optional: Match the container's dark blue */
+    position: absolute;
+    top: -5px; /* Position it above the text */
+    left: 50%; /* Center it horizontally */
+    transform: translateX(-50%); /* Adjust for the horizontal center */
+}
+
+
   .avatar {
     width: 60px;
     height: 60px;

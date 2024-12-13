@@ -4,8 +4,9 @@ import "./image.css";
 
 const Categories = () => {
     return (
-
+        
         <div className="cat">
+            <h3 className="cat-text">Categories</h3>
             <div className="fur">
                     Furniture
             </div>
@@ -13,9 +14,9 @@ const Categories = () => {
                     DECOR
             </div>
             <div className="lin">
-                    LINGHT
+                    LIGHT
             </div>
-
+            <div className="doggo">
             <img className="f10"  src="f10.jpeg" alt="" />
             <img className="f12" src="f12.jpeg" alt="" />
             <img className="f15" src="f15.jpeg" alt="" />
@@ -31,8 +32,7 @@ const Categories = () => {
             <img className="f35" src="f35.jpeg" alt="" />
             <img className="f34" src="f34.jpeg" alt="" />
             <img className="f33" src="f33.jpeg" alt="" />
-            <h3 className="cat-text">Categories</h3>
-
+            </div>
         </div>
     )
 }

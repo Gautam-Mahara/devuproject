@@ -1,43 +1,40 @@
-.contact-form-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    background-color: #f5f5f5;
+.parent{
+    background-size: cover;
+    background-position: center;
+    height: fit-content;
+    color: white;
+    height: 90vh;
+    /* margin-bottom: 1px; */
+    padding-bottom: 5rem;
+      background-image: url('../../public/towel.jpeg');
+      
   }
   
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 400px;
-  }
+  .form-d{
+    position: absolute;
+    left: 53%;
+    top: 680%;
+    height: 30vh;
+    width: 30vw;
+    font-size: 3.5rem;
   
-  .contact-form input,
-  .contact-form textarea {
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 1rem;
   }
-  
-  .contact-form textarea {
-    resize: vertical;
-    min-height: 100px;
+  .input-text{
+    background: rgba(0, 0, 0, 0);
+    font-size: 2rem;
+    border-top: none;
+    color: white;
+    padding-bottom: 1%;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid black;
+    padding-top: 1%;
   }
-  
-  .submit-btn {
-    background-color: #007bff;
-    color: #fff;
+  .input-but{
+    margin-top: 4%;
+    font-size: 1.5rem;
+    /* margin-left: 12%; */
+    padding: 4.5% 24.5%;
     border: none;
-    border-radius: 4px;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    cursor: pointer;
-  }
-  
-  .submit-btn:hover {
-    background-color: #0056b3;
+    border-radius: 5999px;
   }
