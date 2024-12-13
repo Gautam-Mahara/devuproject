@@ -1,12 +1,13 @@
 .f10{
-    position: absolute;
-    top: 204%;
-    left: 1%;
+    position: relative;
+    z-index: 10;
+    top: -180%;
+    left: 3%;
 }
 .f12{
-    position: absolute;
-    top: 195%;
-    left: 12.5%;
+    position: relative;
+    top: -190%;
+    left: 2.5%;
 }
 .f15{
     position: absolute;

@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+.footer {
+  background-color: #5c4536;
+  color: #fff;
+  padding: 40px 40px;
+  font-family: Arial, sans-serif;
+  height: 60vh;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.logo-hexagon {
+  background-color: #083344;
+  width: 80px;
+  height: 80px;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.logo-hexagon img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Apply Yatra One font to the entire HomeVibes text */
+.logo-title {
+  font-family: 'Yatra One', sans-serif;
+  font-size: 2rem;
+  color: #fff;
+  margin: 0;
+}
+
+/* Style only the "Vibes" part */
+.highlight {
+  color: #f9ba27;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.footer-column-main {
+  flex: 1;
+  margin-right: 20px;
+  text-align: left; /* Align the content of the first column to the left */
+}
+
+.footer-column-links {
+  flex: 1;
+}
+
+.newsletter h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.newsletter-input {
+  position: relative;
+  width: 100%; /* Ensure the input spans the container */
+}
+
+.newsletter-input input {
+  width: 100%; /* Full width */
+  font-size: 1rem; /* Font size */
+  background: transparent; /* Make the background transparent */
+  border: none; /* Remove all borders */
+  border-bottom: 2px solid #D0D9DB; /* Keep only the bottom line */
+  color: #D0D9DB; /* Input text color */
+  padding: 5px 10px; /* Add padding for better UX */
+  box-sizing: border-box; /* Prevent padding from causing overflow */
+}
+
+.newsletter-input input::placeholder {
+  color: #D0D9DB; /* Placeholder color */
+  opacity: 0.7; /* Slightly faded for distinction */
+}
+
+.newsletter-input button {
+  position: absolute;
+  right: 10px; /* Keep the button aligned to the right */
+  top: 50%;
+  transform: translateY(-50%); /* Center the button vertically */
+  background: none; /* Remove background */
+  border: none; /* No border */
+  color: #f2994a; /* Button text color */
+  font-size: 1rem; /* Match input text size */
+  cursor: pointer; /* Pointer cursor */
+}
+
+.newsletter-input button:hover {
+  color: #fff; /* Change color on hover */
+}
+
+.newsletter p {
+  font-size: 0.9rem;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.newsletter a {
+  color: #f2994a;
+  text-decoration: none;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px; /* Increased gap between Company and Product sections */
+}
+
+.footer-links .column {
+  margin: 0 10px; /* Reduced gap between columns */
+}
+
+.footer-links h3 {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #F9BA7F;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin: 12px 0;
+  font-size: 14px;
+}
+
+.footer-links ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+  color: #f2994a;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  font-size: 0.9rem;
+}
+
+.footer-bottom a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.footer-bottom a:hover {
+  color: #f2994a;
+}

@@ -8,6 +8,7 @@ import Makers from "./components/Makers.jsx";
 import Testimonials from "./components/Testimonials.jsx";
 import Categories from "./components/Categories.jsx";
 import ContactUs from "./components/ContactUs.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -71,6 +72,7 @@ function App() {
       <Makers />
       <Testimonials/>
       <ContactUs/>
+      <Footer/>
     </div>
   );
 }
